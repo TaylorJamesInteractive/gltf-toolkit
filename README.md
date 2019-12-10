@@ -18,7 +18,8 @@ This is a maxscript to assist the workflow for interactive models. Whilst Substa
 Rebinding the PBR texturesets to the rigged and animated model can be time-consuming, and Babylon.js has a precise work flow in order to export the materials correctly from 3dsmax.
 
 <img src="http://dev.taylorjames.com/projects/interactive/github/assets/physical_materials_parameters.png" alt="test image size" height=70% width="70%">
-*Image courtesy of the Babylon-js docs*
+
+*Image courtesy of the Babylonjs docs*
 
 The main function of the GLTF-Toolbox is to create PBR shaders from Substance Painter output. I would recommend using the USDZ export specification, but it can work with the GLB also. GLB export creates an ORM Map which can be imported by 3dsmax and split into channels, but the exporter doesn't like it. More on using ORM textures [here](https://doc.babylonjs.com/resources/3dsmax_to_gltf#metalness-roughness-and-occlusion-all-in-one-map "here")
 
