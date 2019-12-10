@@ -3,6 +3,7 @@
 # GLTF Toolkit
 
 > Runs in - 3dsMax 
+
 > Tested in 3dsMax 2016,2018 - should work fine in other versions too.
 
 <img src="http://dev.taylorjames.com/projects/interactive/github/assets/02.png" alt="" height="70%" width="70%">
@@ -44,7 +45,9 @@ Note - You need to think about how you name the textures on export. This is poss
 The script can trim asset names in order to process nested texturesets names, and you choose how many layers you allow the script to look for sets. 
 
 `Globe_Land_<PBR MAP CHANNEL NAME>`
+
 `Globe_Gadgets_<PBR MAP CHANNEL NAME>`
+
 `Globe_Clouds_<PBR MAP CHANNEL NAME>`
 
 If you set prefix depth to 1, you will trim the first underscore from the search, it will find the textureset export for 3 PBR shaders, Land, Gadgets, and Clouds rather than just Globe. 
