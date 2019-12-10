@@ -66,7 +66,7 @@ When you've got  viable directory with materials, press this button to build the
 
 Here is a short video of it in action, rebinding a simple material with 2 texturesets. 
 
-<img src="http://dev.taylorjames.com/projects/interactive/github/assets/babylon_process.gif" alt="">
+![](http://dev.taylorjames.com/projects/interactive/github/assets/babylon_process.gif)
 
 ## Scale Tools Rollout
 <img src="http://dev.taylorjames.com/projects/interactive/github/assets/gltf_tools_scale.jpg" alt="" height="50%" width="50%">
