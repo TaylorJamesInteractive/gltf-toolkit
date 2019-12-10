@@ -29,7 +29,7 @@ Copy the gltf-tools struct to your scripts directory and run it using the standa
 
 <img src="http://dev.taylorjames.com/projects/interactive/github/assets/gltf_tools_full.jpg" alt="test image size" height="50%" width="50%">
 
-#### Set Directory Rollout
+## Set Directory Rollout
 
 <img src="http://dev.taylorjames.com/projects/interactive/github/assets/gltf_tools_pbr.jpg" alt="test image size" height="50%" width="50%">
 
@@ -85,7 +85,7 @@ You can see the scale cube we export next to a scale reference sheet below.
 
 We have the cube object and the printable scale reference in the repo in the misc_tools folder.
 
-## Rigging Tools
+## Rigging Tools Rollout
 
 <img src="http://dev.taylorjames.com/projects/interactive/github/assets/gltf_tools_rigging.jpg" alt="test image size" height="50%" width="50%">
 
@@ -95,7 +95,7 @@ Makes a neutral transform helper at the world origin.
 #### Setup Skin For Export
 Sets a few parameters to make it easier to work with skin, along with limiting the bone weights per vertex to 4.
 
-## Material Tools
+## Material Tools Rollout
 <img src="http://dev.taylorjames.com/projects/interactive/github/assets/gltf_tools_materials.jpg" alt="test image size" height="50%" width="50%">
 
 #### Create New Physical Material
@@ -107,6 +107,8 @@ Creates a physical shader with basic parameters, useful if you want to make flat
 Does exactly that.
 
 #### Open Export Dialog
+
+<img src="http://dev.taylorjames.com/projects/interactive/github/assets/gltf_tools_export.jpg" alt="test image size" height="50%" width="50%">
 
 Might have to clear up with Babylon.js about how to call this, as they have wrapped it up in an Actionman call rather than a maxscript dialog. It's a DotNet dialog that they invoke, but I can't figure out the constructor for this.
 
