@@ -67,9 +67,7 @@ When you've got  viable directory with materials, press this button to build the
 Here is a short video of it in action, rebinding a simple material with 2 texturesets. 
 
 
-![](dev.taylorjames.com/projects/interactive/github/assets/babylon_process.gif)
-
-
+<img src="http://dev.taylorjames.com/projects/interactive/github/assets/babylon_process.gif" alt="Shader build process">
 
 
 ## Scale Tools Rollout
