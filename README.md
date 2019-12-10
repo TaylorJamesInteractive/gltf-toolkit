@@ -18,7 +18,7 @@ This is a maxscript to assist the workflow for interactive models. Whilst Substa
 Rebinding the PBR texturesets to the rigged and animated model can be time-consuming, and Babylon.js has a precise work flow in order to export the materials correctly from 3dsmax.
 
 <img src="http://dev.taylorjames.com/projects/interactive/github/assets/physical_materials_parameters.png" alt="test image size" height=70% width="70%">
-*Image courtesy of the Babylon.js docs*
+*Image courtesy of the Babylon-js docs*
 
 The main function of the GLTF-Toolbox is to create PBR shaders from Substance Painter output. I would recommend using the USDZ export specification, but it can work with the GLB also. GLB export creates an ORM Map which can be imported by 3dsmax and split into channels, but the exporter doesn't like it. More on using ORM textures [here](https://doc.babylonjs.com/resources/3dsmax_to_gltf#metalness-roughness-and-occlusion-all-in-one-map "here")
 
@@ -38,7 +38,7 @@ Browse for a folder that contins the Substance Painter export textures. The scri
 
 Note - You need to think about how you name the textures on export. This is possible by right-clicking the textureset in Substance Painter before export and renaming it to something meaningful. 
 
-####Prefix Depth 
+#### Prefix Depth 
 
 The script can trim asset names in order to process nested texturesets names, and you choose how many layers you allow the script to look for sets. 
 
@@ -73,7 +73,7 @@ Creates a temporary object that is sized at 20 cms x 20 cms x 10 cms. This is an
 
 <img src="http://dev.taylorjames.com/projects/interactive/github/assets/gltf_tools_size_ref_on.png" alt="test image size" height="70%" width="70%">
 
-####Delete AR Size Ref
+#### Delete AR Size Ref
 
 Clears the scene of any size objects that have been created (You can create as many as you need)
 
@@ -87,7 +87,6 @@ We have the cube object and the printable scale reference in the repo in the mis
 ## Rigging Tools
 
 <img src="http://dev.taylorjames.com/projects/interactive/github/assets/gltf_tools_rigging.jpg" alt="test image size" height="50%" width="50%">
-
 
 #### Create Root Helper
 Makes a neutral transform helper at the world origin.
