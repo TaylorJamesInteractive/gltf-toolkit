@@ -22,7 +22,7 @@ Rebinding the PBR texturesets to the rigged and animated model can be time-consu
 
 *Image courtesy of the Babylonjs docs*
 
-The main function of the GLTF-Toolbox is to create PBR shaders from Substance Painter output. I would recommend using the USDZ export specification, but it can work with the GLB also. GLB export creates an ORM Map which can be imported by 3dsmax and split into channels, but the exporter doesn't like it. More on using ORM textures [here](https://doc.babylonjs.com/resources/3dsmax_to_gltf#metalness-roughness-and-occlusion-all-in-one-map "here")
+The main function of the GLTF Toolkit is to create PBR shaders from Substance Painter output. I would recommend using the USDZ export specification, but it can work with the GLB also. GLB export creates an ORM Map which can be imported by 3dsmax and split into channels, but the exporter doesn't like it. More on using ORM textures [here](https://doc.babylonjs.com/resources/3dsmax_to_gltf#metalness-roughness-and-occlusion-all-in-one-map "here")
 
 ## Using the Script
 
@@ -60,7 +60,7 @@ If you get into the habit of naming your texture set by the mesh group, rather t
 
 #### Create GLTF-PBR Materials
 
-When you've got  viable directory with materials, press this button to build the PBR shaders. If successful, you'll see the Slate editor pop up.
+When you've got a viable directory with materials, press this button to build the PBR shaders. If successful, you'll see the Slate editor pop up.
 
 <img src="http://dev.taylorjames.com/projects/interactive/github/assets/03.png" alt="" height=70% width="70%">
 
