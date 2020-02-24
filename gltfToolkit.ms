@@ -53,7 +53,7 @@ struct ORM
 struct gltfToolsStruct 
 (
 	
-textures_dir = undefined,
+textures_dir = (getdir #scene ) ,
 -- TO_DO - Can't find a way to expose the running of the babylon exporter dialog from DotNet
 -- babylonExportCall
 -- babylonProperties = [91,1]
@@ -517,7 +517,8 @@ gltfToolsRo = rollout gltfToolsRo "Taylor James Interactive - GLTF Toolkit" widt
 
 	on pickDir pressed do
 	(
-		init_dir = if doesfileexist gltfTools.textures_dir then gltfTools.textures_dir else ""
+	
+ 		local init_dir = if doesfileexist gltfTools.textures_dir then gltfTools.textures_dir else getdir #scene
 		scan_path = getSavePath  caption:"Pick Substance output directory" initialDir:init_dir
 		
 		if scan_path != undefined then
