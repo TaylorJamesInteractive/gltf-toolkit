@@ -1,4 +1,4 @@
-<img src="http://dev.taylorjames.com/projects/interactive/github/assets/TJI_W.png" align="right"
+<img src="https://tj-assets.s3.amazonaws.com/Development/github/images/TJI_W.png" align="right"
      title="Taylor James Interactive" width="70" height="70">
 # GLTF Toolkit
 
@@ -6,11 +6,11 @@
 
 > Tested in 3dsMax 2016,2018 - should work fine in other versions too.
 
-<img src="http://dev.taylorjames.com/projects/interactive/github/assets/02.png" alt="" height="70%" width="70%">
+<img src="https://tj-assets.s3.amazonaws.com/Development/github/images/02.png" alt="" height="70%" width="70%">
 
 This is a maxscript to assist the workflow for interactive models. Whilst Substance Painter can export very good GLTF/GLB and USDZ models, it cannot export animated meshes. Therefore we use the [Babylon.js exporter](https://github.com/BabylonJS/Exporters/releases "Babylon.js exporter") to do this from our DDC of choice, 3dsMax.
 
-<img src="http://dev.taylorjames.com/projects/interactive/github/assets/Volvo_AR.jpg" alt="" height="70%" width="70%">
+<img src="https://tj-assets.s3.amazonaws.com/Development/github/images/Volvo_AR.jpg" alt="" height="70%" width="70%">
 
 *An example of a GLB file exported from 3dsmax and used in the ARCore modelviewer*
 
@@ -18,7 +18,7 @@ This is a maxscript to assist the workflow for interactive models. Whilst Substa
 
 Rebinding the PBR texturesets to the rigged and animated model can be time-consuming, and Babylon.js has a precise work flow in order to export the materials correctly from 3dsmax.
 
-<img src="http://dev.taylorjames.com/projects/interactive/github/assets/physical_materials_parameters.png" alt="" height=70% width="70%">
+<img src="https://tj-assets.s3.amazonaws.com/Development/github/images/physical_materials_parameters.png" alt="" height=70% width="70%">
 
 *Image courtesy of the Babylonjs docs*
 
@@ -28,11 +28,11 @@ The main function of the GLTF Toolkit is to create PBR shaders from Substance Pa
 
 Copy the gltf-tools struct to your scripts directory and run it using the standard maxscript run command (or evaluate the source from the maxscript editor)
 
-<img src="http://dev.taylorjames.com/projects/interactive/github/assets/gltf_tools_full.jpg" alt="" height="50%" width="50%">
+<img src="https://tj-assets.s3.amazonaws.com/Development/github/images/gltf_tools_full.jpg" alt="" height="50%" width="50%">
 
 ## Set Directory Rollout
 
-<img src="http://dev.taylorjames.com/projects/interactive/github/assets/gltf_tools_pbr.jpg" alt="" height="50%" width="50%">
+<img src="https://tj-assets.s3.amazonaws.com/Development/github/images/gltf_tools_pbr.jpg" alt="" height="50%" width="50%">
 
 #### Pick Texture Directory
 
@@ -62,20 +62,20 @@ If you get into the habit of naming your texture set by the mesh group, rather t
 
 When you've got a viable directory with materials, press this button to build the PBR shaders. If successful, you'll see the Slate editor pop up.
 
-<img src="http://dev.taylorjames.com/projects/interactive/github/assets/03.png" alt="" height=70% width="70%">
+<img src="https://tj-assets.s3.amazonaws.com/Development/github/images/03.png" alt="" height=70% width="70%">
 
 Here is a short video of it in action, rebinding a simple material with 2 texturesets. 
 
-<img src="http://dev.taylorjames.com/projects/interactive/github/assets/babylon_process.webp" alt="Shader build process">
+<img src="https://tj-assets.s3.amazonaws.com/Development/github/images/babylon_process.webp" alt="Shader build process">
 
 ## Scale Tools Rollout
-<img src="http://dev.taylorjames.com/projects/interactive/github/assets/gltf_tools_scale.jpg" alt="" height="50%" width="50%">
+<img src="https://tj-assets.s3.amazonaws.com/Development/github/images/gltf_tools_scale.jpg" alt="" height="50%" width="50%">
 
 #### Create AR Size Ref 
 
 Creates a temporary object that is sized at 20 cms x 20 cms x 10 cms. This is an ideal scale for table top AR models as it means the average distance of the viewer will be able to see the model without having to rescale. We have found that the majority of scenarios are in this context and this scale is the most comfortable. 
 
-<img src="http://dev.taylorjames.com/projects/interactive/github/assets/gltf_tools_size_ref_on.png" alt="" height="70%" width="70%">
+<img src="https://tj-assets.s3.amazonaws.com/Development/github/images/gltf_tools_size_ref_on.png" alt="" height="70%" width="70%">
 
 #### Delete AR Size Ref
 
@@ -84,13 +84,13 @@ Clears the scene of any size objects that have been created (You can create as m
 > Working in centimeters is our preferred work flow for our CGI pipeline. Babylon export with 1 unit as 1 meter, so we set the export scale to 0.01
 
 You can see the scale cube we export next to a scale reference sheet below. 
-<img src="http://dev.taylorjames.com/projects/interactive/github/assets/scale.png" alt="" height="50%" width="50%">
+<img src="https://tj-assets.s3.amazonaws.com/Development/github/images/scale.png" alt="" height="50%" width="50%">
 
 We have the cube object and the printable scale reference in the repo in the misc_tools folder.
 
 ## Rigging Tools Rollout
 
-<img src="http://dev.taylorjames.com/projects/interactive/github/assets/gltf_tools_rigging.jpg" alt="" height="50%" width="50%">
+<img src="https://tj-assets.s3.amazonaws.com/Development/github/images/gltf_tools_rigging.jpg" alt="" height="50%" width="50%">
 
 #### Create Root Helper
 Makes a neutral transform helper at the world origin.
@@ -99,7 +99,7 @@ Makes a neutral transform helper at the world origin.
 Sets a few parameters to make it easier to work with skin, along with limiting the bone weights per vertex to 4.
 
 ## Material Tools Rollout
-<img src="http://dev.taylorjames.com/projects/interactive/github/assets/gltf_tools_materials.jpg" alt="" height="50%" width="50%">
+<img src="https://tj-assets.s3.amazonaws.com/Development/github/images/gltf_tools_materials.jpg" alt="" height="50%" width="50%">
 
 #### Create New Physical Material
 
@@ -111,8 +111,6 @@ Does exactly that.
 
 #### Open Export Dialog
 
-<img src="http://dev.taylorjames.com/projects/interactive/github/assets/gltf_tools_export.jpg" alt="" height="50%" width="50%">
+<img src="https://tj-assets.s3.amazonaws.com/Development/github/images/gltf_tools_export.jpg" alt="" height="50%" width="50%">
 
-Might have to clear up with Babylon.js about how to call this, as they have wrapped it up in an Actionman call rather than a maxscript dialog. It's a DotNet dialog that they invoke, but I can't figure out the constructor for this.
-
-
+Still on the to-do list - It's actually possible to script the extire export process without showing the dialog. This will be added in due course.
